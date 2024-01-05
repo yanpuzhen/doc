@@ -5,7 +5,6 @@ import shiki from 'shiki';
 import shikiTheme from './shiki/tokyo-night.json';
 const t = shiki.toShikiTheme(shikiTheme);
 //数学公式支持
-// import mathjax3 from 'markdown-it-mathjax3';
 import markdownItKatex from 'markdown-it-katex';
 
 //评论支持
