@@ -4,10 +4,20 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
+//浏览量统计
+import { inBrowser } from 'vitepress'
+import busuanzi from 'busuanzi.pure.js'
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
+  enhanceApp({ app , router }) {
+    if (inBrowser) {
+      router.onAfterRouteChanged = () => {
+        busuanzi.fetch()
+      }
+    }
+  },
   setup() {
     // Get frontmatter and route
     const { frontmatter } = useData();
