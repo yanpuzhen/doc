@@ -126,7 +126,7 @@ export default defineConfig({
       { text: '博客', link: 'https://blog.baize.host' },
       { text: '个人主页', link: 'https://bahome.baize.host' },
       { text: '关于', link: '/about' },
-      { text: '唠唠叨叨', link: '/blog/talk.md' },
+      { text: '唠唠叨叨', link: '/blog/talk' },
     ],
 
     sidebar: [ //侧边栏
