@@ -1,5 +1,5 @@
 hello，我是白泽，一个计算机小白，正在为开发自己的开源项目而努力，欢迎见证我的成长。
-
+<span style="color:blue">如果遇到图片加载不流畅，网页打不开等情况，请开启魔法进行访问。</span>
 <img src="https://ghchart.rshah.org/409ba5/yangpuzhen" alt="yangpuzhen's Blue Github Chart" />
 🧰 常用的工具
 
