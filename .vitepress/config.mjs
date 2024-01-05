@@ -1,10 +1,13 @@
 //shiki代码高亮配置
 import { defineConfig } from 'vitepress'
+
 import shiki from 'shiki';
 import shikiTheme from './shiki/tokyo-night.json';
 const t = shiki.toShikiTheme(shikiTheme);
 //数学公式支持
 import mathjax3 from 'markdown-it-mathjax3';
+//评论支持
+
 //数学公式特殊标签
 const customElements = [
   'math',
@@ -101,6 +104,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "baize's know",
   description: "A VitePress Site",
+  
   markdown: {
     lineNumbers: true,
     math:true,

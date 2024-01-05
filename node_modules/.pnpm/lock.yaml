@@ -19,6 +19,12 @@ devDependencies:
   vitepress:
     specifier: 1.0.0-rc.35
     version: 1.0.0-rc.35(@algolia/client-search@4.22.0)(markdown-it-mathjax3@4.3.2)(search-insights@2.13.0)
+  vitepress-plugin-comment-with-giscus:
+    specifier: ^1.1.11
+    version: 1.1.11(vue@3.4.5)
+  vitepress-theme-website:
+    specifier: ^1.0.6
+    version: 1.0.6
 
 packages:
 
@@ -433,8 +439,27 @@ packages:
     dev: true
     optional: true
 
+  /@giscus/vue@2.4.0(vue@3.4.5):
+    resolution: {integrity: sha512-QOxKHgsMT91myyQagP2v20YYAei1ByZuc3qcaYxbHx4AwOeyVrybDIuRFwG9YDv6OraC86jYnU4Ixd37ddC/0A==}
+    peerDependencies:
+      vue: '>=3.2.0'
+    dependencies:
+      giscus: 1.4.0
+      vue: 3.4.5
+    dev: true
+
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+    dev: true
+
+  /@lit-labs/ssr-dom-shim@1.1.2:
+    resolution: {integrity: sha512-jnOD+/+dSrfTWYfSXBXlo5l5f0q1UuJo3tkbMDCYA2lKUYq79jaxqtGEvnRoh049nt1vdo1+45RinipU6FGY2g==}
+    dev: true
+
+  /@lit/reactive-element@2.0.2:
+    resolution: {integrity: sha512-SVOwLAWUQg3Ji1egtOt1UiFe4zdDpnWHyc5qctSceJ5XIu0Uc76YmGpIjZgx9YJ0XtdW0Jm507sDvjOu+HnB8w==}
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.1.2
     dev: true
 
   /@rollup/rollup-android-arm-eabi@4.9.2:
@@ -554,6 +579,10 @@ packages:
 
   /@types/mdurl@1.0.5:
     resolution: {integrity: sha512-6L6VymKTzYSrEf4Nev4Xa1LCHKrlTlYCBMTlQKFuddo1CvQcE52I0mwfOJayueUC7MJuXOeHTcIU683lzd0cUA==}
+    dev: true
+
+  /@types/trusted-types@2.0.7:
+    resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
     dev: true
 
   /@types/web-bluetooth@0.0.20:
@@ -723,6 +752,19 @@ packages:
       - vue
     dev: true
 
+  /@waline/client@2.15.8:
+    resolution: {integrity: sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@vueuse/core': 10.7.1(vue@3.4.5)
+      autosize: 6.0.1
+      marked: 4.3.0
+      vue: 3.4.5
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: true
+
   /algoliasearch@4.22.0:
     resolution: {integrity: sha512-gfceltjkwh7PxXwtkS8KVvdfK+TSNQAWUeNSxf4dA29qW5tf2EGwa8jkJujlT9jLm17cixMVoGNc+GJFO1Mxhg==}
     dependencies:
@@ -750,6 +792,10 @@ packages:
   /ansi-sequence-parser@1.1.1:
     resolution: {integrity: sha512-vJXt3yiaUL4UU546s3rPXlsry/RnM730G1+HkpKE012AN0sx1eOrxSu95oKDIonskeLTijMgqWZ3uDEe3NFvyg==}
     dev: false
+
+  /autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
+    dev: true
 
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -913,6 +959,12 @@ packages:
     dev: true
     optional: true
 
+  /giscus@1.4.0:
+    resolution: {integrity: sha512-Pll+pcclTx47NcFDw8nuka2Ja85Gc4XWpzSgL0rszOQaMQRQIV8UMR+zP4a+/N3tV2TXc1SZ537kWlsN6EsAaw==}
+    dependencies:
+      lit: 3.1.0
+    dev: true
+
   /htmlparser2@5.0.1:
     resolution: {integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==}
     dependencies:
@@ -949,6 +1001,28 @@ packages:
       - encoding
     dev: true
 
+  /lit-element@4.0.2:
+    resolution: {integrity: sha512-/W6WQZUa5VEXwC7H9tbtDMdSs9aWil3Ou8hU6z2cOKWbsm/tXPAcsoaHVEtrDo0zcOIE5GF6QgU55tlGL2Nihg==}
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.1.2
+      '@lit/reactive-element': 2.0.2
+      lit-html: 3.1.0
+    dev: true
+
+  /lit-html@3.1.0:
+    resolution: {integrity: sha512-FwAjq3iNsaO6SOZXEIpeROlJLUlrbyMkn4iuv4f4u1H40Jw8wkeR/OUXZUHUoiYabGk8Y4Y0F/rgq+R4MrOLmA==}
+    dependencies:
+      '@types/trusted-types': 2.0.7
+    dev: true
+
+  /lit@3.1.0:
+    resolution: {integrity: sha512-rzo/hmUqX8zmOdamDAeydfjsGXbbdtAFqMhmocnh2j9aDYqbu0fjXygjCa0T99Od9VQ/2itwaGrjZz/ZELVl7w==}
+    dependencies:
+      '@lit/reactive-element': 2.0.2
+      lit-element: 4.0.2
+      lit-html: 3.1.0
+    dev: true
+
   /magic-string@0.30.5:
     resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
     engines: {node: '>=12'}
@@ -967,6 +1041,12 @@ packages:
       mathjax-full: 3.2.2
     transitivePeerDependencies:
       - encoding
+    dev: true
+
+  /marked@4.3.0:
+    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
+    engines: {node: '>= 12'}
+    hasBin: true
     dev: true
 
   /mathjax-full@3.2.2:
@@ -1174,6 +1254,24 @@ packages:
       rollup: 4.9.2
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
+
+  /vitepress-plugin-comment-with-giscus@1.1.11(vue@3.4.5):
+    resolution: {integrity: sha512-k2xWxCGZWBrLxC+C3OC7+LAq9nkYpulVTW0UNxS0Jq9sf568n4Tel0ufYn3MK1rxG6i4qYpKCiTeOORF7wbk8w==}
+    dependencies:
+      '@giscus/vue': 2.4.0(vue@3.4.5)
+    transitivePeerDependencies:
+      - vue
+    dev: true
+
+  /vitepress-theme-website@1.0.6:
+    resolution: {integrity: sha512-Nu+oJrI6slYkgIbOuWMlJHORoicuBE2zIQZSY4WQEQ58hSCa/aconEx5N6ei8sW6B1qUDVTyUzySBMYNg/kEJQ==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@waline/client': 2.15.8
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
     dev: true
 
   /vitepress@1.0.0-rc.35(@algolia/client-search@4.22.0)(markdown-it-mathjax3@4.3.2)(search-insights@2.13.0):
