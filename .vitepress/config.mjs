@@ -5,9 +5,13 @@ import shiki from 'shiki';
 import shikiTheme from './shiki/tokyo-night.json';
 const t = shiki.toShikiTheme(shikiTheme);
 //数学公式支持
-import mathjax3 from 'markdown-it-mathjax3';
-//评论支持
+// import mathjax3 from 'markdown-it-mathjax3';
+import markdownItKatex from 'markdown-it-katex';
 
+//评论支持
+const head = [
+  ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css', crossorigin: '' }]
+];
 //数学公式特殊标签
 const customElements = [
   'math',
@@ -109,7 +113,7 @@ export default defineConfig({
     lineNumbers: true,
     // math:true,
     config: (md) => {
-      md.use(mathjax3);
+      md.use(markdownItKatex);
     },
   },
   vue: {
