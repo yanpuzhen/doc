@@ -3,8 +3,7 @@
     "busuanzi.pure.js": "^1.0.3",
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "1.0.0-rc.35",
-    "vitepress-plugin-comment-with-giscus": "^1.1.11",
-    "vitepress-theme-website": "^1.0.6"
+    "vitepress-plugin-comment-with-giscus": "^1.1.11"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -12,6 +11,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@waline/client": "3.0.0-alpha.9",
     "shiki": "^0.14.7"
   }
 }

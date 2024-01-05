@@ -4,31 +4,11 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
-import { useLive2d } from 'vitepress-theme-website'
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
   setup() {
-    useLive2d({
-      enable: true,
-      model: {
-        url:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/wanko/wanko.model.json',
-      },
-      display: {
-        position: 'right',
-        width: '300px',
-        height: '300px',
-        xOffset: '35px',
-        yOffset: '5px'
-      },
-      mobile: {
-        show: true
-      },
-      react: {
-        opacity: 0.8
-      }
-    });
     // Get frontmatter and route
     const { frontmatter } = useData();
     const route = useRoute();
