@@ -6,7 +6,7 @@ hero:
   name: "白泽的知识库"
   text: "一个基于vitepress的个人知识库"
   image:
-    src: /img/logo.webp
+    src: https://blog-img.baize.host/202401051811416.webp
   actions:
     - theme: brand
       text: 开始使用
