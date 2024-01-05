@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node",
+        "config": {
+          "entrypoint": "npm run docs:build"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/docs/.vitepress/dist/$1"
+      }
+    ],
+    "engines": {
+      "node": "18.18.0"
+    }
+  }
