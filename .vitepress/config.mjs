@@ -134,6 +134,7 @@ export default defineConfig({
       text:'技术文档',
       items:[
         {text:'报错及解决方案',link:'/blog/erro.md'},
+        {text:'数学公式测试',link:'/blog/math.md'},
       ]
     },
       {
