@@ -35,5 +35,3 @@ hello，我是白泽，一个计算机小白，正在为开发自己的开源项
 <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
 <img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
 </div>
-本站总访问量 <span id="busuanzi_value_site_pv" /> 次
-本站访客数 <span id="busuanzi_value_site_uv" /> 人次
