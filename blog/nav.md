@@ -21,3 +21,5 @@
 [https://search.baize.host/](https://search.baize.host/)
 ## 每日新闻
 [https://news.baize.host/](https://news.baize.host/)
+## ip工具箱
+[https://iptools.baize.host/](https://iptools.baize.host/)
