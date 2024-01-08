@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,U as r}from"./chunks/framework.HhZUIk8r.js";const _=JSON.parse('{"title":"以下是我自建的个人资源，欢迎访问","description":"","frontmatter":{},"headers":[],"relativePath":"blog/nav.md","filePath":"blog/nav.md"}'),h={name:"blog/nav.md"},o=r("",25),i=[o];function s(l,n,p,b,d,c){return t(),e("div",null,i)}const u=a(h,[["render",s]]);export{_ as __pageData,u as default};

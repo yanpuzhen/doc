@@ -1,0 +1,1 @@
+import{_ as a,c as o,o as e}from"./chunks/framework.HhZUIk8r.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/laosao.md","filePath":"blog/laosao.md"}'),t={name:"blog/laosao.md"};function s(r,c,n,l,p,_){return e(),o("div")}const m=a(t,[["render",s]]);export{i as __pageData,m as default};

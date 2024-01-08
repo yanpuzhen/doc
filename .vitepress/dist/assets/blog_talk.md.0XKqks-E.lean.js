@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,U as o}from"./chunks/framework.HhZUIk8r.js";const f=JSON.parse('{"title":"记录一些我自己的碎碎念","description":"","frontmatter":{},"headers":[],"relativePath":"blog/talk.md","filePath":"blog/talk.md"}'),r={name:"blog/talk.md"},s=o("",3),l=[s];function c(n,i,_,u,d,h){return e(),t("div",null,l)}const p=a(r,[["render",c]]);export{f as __pageData,p as default};
