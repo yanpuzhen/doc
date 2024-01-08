@@ -126,8 +126,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [ //上部导航栏
       { text: '返回主页', link: '/' },
-      { text: '博客', link: 'https://blog.baize.host' },
-      { text: '个人主页', link: 'https://bahome.baize.host' },
+      { text: '博客', link: 'https://www.ipv6.email' },
+      { text: '个人主页', link: 'https://home.ipv6.email' },
       { text: '关于', link: '/about' },
       { text: '唠唠叨叨', link: '/blog/talk' },
     ],

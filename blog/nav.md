@@ -1,10 +1,10 @@
 # 以下是我自建的个人资源，欢迎访问
 ## 碧蓝档案风格的个人主页
-[https://bahome.baize.host](https://bahome.baize.host)
+[https://home.ipv6.email](https://home.ipv6.email)
 ## 聚合导航页
 [https://nav.baize.host/](https://nav.baize.host/)
 ## 博客
-[https://blog.baize.host/](https://blog.baize.host/)
+[https://www.ipv6.email/](https://www.ipv6.email/)
 ## it工具箱
 [https://tool.baize.host/](https://tool.baize.host/)
 ## 编程速查
