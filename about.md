@@ -20,20 +20,20 @@ hello，我是白泽，一个计算机小白，正在为开发自己的开源项
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-<img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" /> 
-<img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
-<img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/k8s.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/js-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/mysql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/webpack-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/docker-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" /> 
+<img src="/img/redux-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/java-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/eslint-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/aws-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/python-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/github-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/graphql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/react-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
+<img src="/img/raspberrypi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 20px; margin-bottom: 20px;" />
 </div>
 本站总访问量 <span id="busuanzi_value_site_pv" /> 次
 本站访客数 <span id="busuanzi_value_site_uv" /> 人次
